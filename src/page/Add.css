@@ -1,0 +1,148 @@
+.b{
+    width: 40%;
+    height: 100px;
+}
+button{
+    margin-top: 40px;
+    background-color: cadetblue;
+    width: 80px;
+}
+.ul{
+    list-style: none;
+    
+}
+.dd{
+    border: 1px solid black;
+    width: 80%;
+    font-size: 30px;
+    color: blue;
+}
+
+
+/* mappp */
+
+.fh{
+    text-align: center;
+    font-family: 'URW Chancery L, cursive';
+}
+.bb{
+    background-color: rgb(9, 146, 32);
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+/* sininnmnn */
+
+.bgbg{
+    height: 625px;
+    margin: 0;
+}
+.bg{
+    /* The image used */
+    background-image: url("../img/bg.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .text-center1{
+	color:#fff;	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 20px 0;
+    display: block;
+    text-align: center;
+}
+.box{
+	position:absolute;
+	left:75%;
+	top:55%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:10px;
+	padding:60px 100px;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+    
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+.btn1{
+	color:#fff;
+	background-color:#e74c3c;
+	height: 40px;
+    border-radius: 8px;
+}
+/* .btn1:after{
+	content:"";
+	position:absolute;
+	background:rgba(0,0,0,0.50);
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+} */
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+
+
+
+/* dashboardmm, */
+
+
+
+.bgd{
+    height: 545px;
+    margin: 0;
+
+}
+.dd{
+    /* The image used */
+    background-image: url("../img/f4.jpg");
+  
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ddd{
+    width: 30%;
+    margin-left: 10px;
+  }
